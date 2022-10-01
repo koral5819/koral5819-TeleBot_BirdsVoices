@@ -4,7 +4,8 @@ import requests   # https://requests.readthedocs.io/en/latest/user/quickstart/
 
 username = 'koral5819@yandex.ru'
 password = 'D#-R723wLcV'
-birds_xeno_nr = '431256'
+#birds_xeno_nr = '431256'
+birds_xeno_nr = '624326'
 xeno_api_url = 'https://www.xeno-canto.org/api/2/recordings?query=nr:'
 bird = requests.get(xeno_api_url+birds_xeno_nr, auth=(username, password), allow_redirects=True)
 
